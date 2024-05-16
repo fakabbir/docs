@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  redis_instance_1:
+    container_name: redis_instance_1
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+  redis_instance_2:
+    container_name: redis_instance_2
+    image: redis:latest
+    ports:
+      - "6380:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+  redis_instance_3:
+    container_name: redis_instance_3
+    image: redis:latest
+    ports:
+      - "6381:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+  redis_instance_4:
+    container_name: redis_instance_4
+    image: redis:latest
+    ports:
+      - "6382:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+  redis_instance_5:
+    container_name: redis_instance_5
+    image: redis:latest
+    ports:
+      - "6383:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+
+  redis_instance_6:
+    container_name: redis_instance_6
+    image: redis:latest
+    ports:
+      - "6384:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+
+  redis_instance_7:
+    container_name: redis_instance_7
+    image: redis:latest
+    ports:
+      - "6385:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+
+  redis_instance_8:
+    container_name: redis_instance_8
+    image: redis:latest
+    ports:
+      - "6386:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+
+  redis_instance_9:
+    container_name: redis_instance_9
+    image: redis:latest
+    ports:
+      - "6387:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+
+  redis_instance_10:
+    container_name: redis_instance_10
+    image: redis:latest
+    ports:
+      - "6388:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
